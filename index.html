@@ -23,6 +23,14 @@
 	<meta property="og:image:alt" content="">
 	<meta property="og:locale" content="es">
 
+	<!--Etiquetas de precarga-->
+	<link rel="dns-prefetch" href=""> <!--Indica un nombre de dominio que debería resolverse lo antes posible.-->
+	<link rel="preconnect" href=""> <!--Indica una URL a la que debería preconectarse (DNS, handshake, TLS...) lo antes posible.-->
+	<link rel="prerender" href=""> <!--Indica una URL que debería renderizarse porque es muy probable que el usuario acceda.-->
+	<link rel="prefetch" href="" as=""> <!--Indica una URL que se necesitará en el futuro y debería prepararse.-->
+	<link rel="preload" href="" as=""> <!--Indica una URL que debe precargarse inmediatamente para su utilización posterior.-->
+	<link rel="modulepreload" href=""> <!--Indica una URL con un módulo Javascript que debe precargar lo antes posible.-->
+
 	<!--Canonical (original) & Alternate (alternativa)-->
 	<link rel="canonical" href="">
 	<link rel="alternate" href="" hreflang="">
